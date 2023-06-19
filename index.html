@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/icon.png" rel="icon" type="image/png" />
+    <link href="/styles.css" rel="stylesheet" />
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main id="calculator">
+        <section id="output">
+            <div id="secondary">
+                <div id="secondary-display"></div>
+            </div>
+            <div id="primary-display" data-primary-operand>0</div>
+        </section>
+        <section id="input">
+            <button data-all-clear class="span-2">AC</button>
+            <button data-clear>C</button>
+            <button class="operator" data-operation value="/">/</button>
+            <button class="number" data-number>7</button>
+            <button class="number" data-number>8</button>
+            <button class="number" data-number>9</button>
+            <button class="operator" data-operation value="*">*</button>
+            <button class="number" data-number>4</button>
+            <button class="number" data-number>5</button>
+            <button class="number" data-number>6</button>
+            <button class="operator" data-operation value="-">-</button>
+            <button class="number" data-number>1</button>
+            <button class="number" data-number>2</button>
+            <button class="number" data-number>3</button>
+            <button class="operator" data-operation value="+">+</button>
+            <button class="number" data-number>0</button>
+            <button class="number" data-number>.</button>
+            <button class="operator span-2" data-calculate value="=">=</button>
+        </section>
+    </main>
+</body>
+<script src="/script.js"></script>
+
+</html>
